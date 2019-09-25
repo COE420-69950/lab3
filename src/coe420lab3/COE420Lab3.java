@@ -11,11 +11,15 @@ package coe420lab3;
  */
 public class COE420Lab3 {
 
+    static void addFeatureB(){
+        System.out.println("Added Feature B");
+    }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         System.out.println("Heloo World");
+        addFeatureB();
     }
     
 }
